@@ -1,5 +1,8 @@
 <template>
   <nav class="nav">
+    <span class="nav-toggle">
+      <i class="fas fa-bars" />
+    </span>
     <a class="nav-logo" href="#">
       George's
     </a>
@@ -41,20 +44,39 @@
   font-weight: 700;
   padding-bottom: 0.5rem;
 
-  .nav-logo {
+  .nav-toggle {
+    color: #111;
+    cursor: pointer;
     font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
   }
 
-  .nav-logo,
-  .nav-main .nav-link a {
+  .nav-logo {
     color: #111;
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
     text-decoration: none;
-    transition: background 0.2s ease, color 0.2s ease-out;
+  }
 
-    &:hover,
-    &:active {
-      background: #efefef;
-      color: rgb(207, 25, 25);
+  .nav-main .nav-link {
+    text-align: center;
+    margin: 1rem auto;
+
+    a {
+      color: #111;
+      text-decoration: none;
+      padding: 1rem auto;
+      transition: background 0.2s ease, color 0.2s ease-out;
+
+      &:hover,
+      &:active {
+        background: #efefef;
+        color: rgb(207, 25, 25);
+      }
     }
   }
 
