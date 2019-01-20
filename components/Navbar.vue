@@ -1,12 +1,15 @@
 <template>
   <nav class="nav">
-    <span class="nav-toggle">
+    <span
+      class="nav-toggle"
+      @click="toggleActive"
+    >
       <i class="fas fa-bars" />
     </span>
     <a class="nav-logo" href="#">
       George's
     </a>
-    <ul class="nav-main">
+    <ul class="nav-main" :class="{'is-active': isActive }">
       <li class="nav-link">
         <a href="#">
           Home
@@ -36,6 +39,21 @@
   </nav>
 </template>
 
+<script>
+export default {
+  data: function() {
+    return {
+      isActive: false
+    }
+  },
+  methods: {
+    toggleActive() {
+      this.isActive = !this.isActive
+    }
+  }
+}
+</script>
+
 <style lang="scss" scoped>
 .nav {
   background: #fff;
@@ -51,6 +69,12 @@
     position: absolute;
     right: 1rem;
     top: 0.5rem;
+    transition: color 0.2s ease-out;
+
+    &:hover,
+    &:active {
+      color: rgb(207, 25, 25);
+    }
   }
 
   .nav-logo {
@@ -62,26 +86,63 @@
     text-decoration: none;
   }
 
-  .nav-main .nav-link {
-    text-align: center;
-    margin: 1rem auto;
+  .nav-main {
+    list-style-type: none;
+    display: none;
 
-    a {
-      color: #111;
-      text-decoration: none;
-      padding: 1rem auto;
-      transition: background 0.2s ease, color 0.2s ease-out;
+    .nav-link {
+      text-align: center;
+      margin: 1rem auto;
 
-      &:hover,
-      &:active {
-        background: #efefef;
-        color: rgb(207, 25, 25);
+      a {
+        color: #111;
+        text-decoration: none;
+        padding: 1rem auto;
+        transition: color 0.2s ease-out;
+
+        &:hover,
+        &:active {
+          color: rgb(207, 25, 25);
+        }
       }
     }
   }
 
-  .nav-main {
-    list-style-type: none;
+  .is-active {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+
+    .nav-toggle {
+      display: none;
+    }
+
+    .nav-logo {
+      margin-top: 0;
+    }
+
+    .nav-main {
+      display: flex;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: flex-end;
+
+      li {
+        margin: 0;
+      }
+
+      .nav-link {
+        margin-left: 40px;
+      }
+    }
   }
 }
 </style>
