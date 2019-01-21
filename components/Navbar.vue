@@ -57,8 +57,8 @@ export default {
 <style lang="scss" scoped>
 .nav {
   background: #fff;
-  box-shadow: inset 0px -1px 2px 0px rgba(0, 0, 0, 0.15);
-  font-size: 1.2rem;
+  box-shadow: unset 0px -1px 2px 0px rgba(0, 0, 0, 0.25);
+  font-size: 1rem;
   font-weight: 700;
   padding-bottom: 0.5rem;
 
