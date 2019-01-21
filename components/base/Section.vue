@@ -6,6 +6,14 @@
 
 <style lang="scss" scoped>
 .section {
-  margin-top: 3rem;
+  padding-top: 3rem;
+
+  &:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+  &:nth-child(odd) {
+    background-color: #efefef;
+  }
 }
 </style>

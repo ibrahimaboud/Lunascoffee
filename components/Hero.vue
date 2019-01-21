@@ -1,6 +1,6 @@
 <template>
   <header class="hero">
-    <container>
+    <ContainerComponent>
       <div class="box">
         <h1 class="title">
           George's
@@ -9,16 +9,16 @@
           The best San Francisco has to offer.
         </h2>
       </div>
-    </container>
+    </ContainerComponent>
   </header>    
 </template>
 
 <script>
-import Container from '~/components/base/Container.vue'
+import ContainerComponent from '~/components/base/Container.vue'
 
 export default {
   components: {
-    Container
+    ContainerComponent
   }
 }
 </script>
@@ -26,7 +26,7 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('/img/steak_1920.jpg');
   background-attachment: fixed;
   background-position: center;
