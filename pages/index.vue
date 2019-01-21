@@ -1,25 +1,29 @@
 <template>
   <main>
-    <Navbar />
-    <Hero />
-    <Container>
-      <OurMenu />
-    </Container>
+    <NavbarComponent />
+    <HeroComponent />
+    <SectionComponent>
+      <ContainerComponent>
+        <MenuComponent />
+      </ContainerComponent>
+    </SectionComponent>
   </main>
 </template>
 
 <script>
-import Navbar from '~/components/Navbar.vue'
-import Hero from '~/components/Hero.vue'
-import OurMenu from '~/components/Menu.vue'
-import Container from '~/components/base/Container.vue'
+import NavbarComponent from '~/components/Navbar.vue'
+import HeroComponent from '~/components/Hero.vue'
+import MenuComponent from '~/components/Menu.vue'
+import SectionComponent from '~/components/base/Section.vue'
+import ContainerComponent from '~/components/base/Container.vue'
 
 export default {
   components: {
-    Navbar,
-    Hero,
-    OurMenu,
-    Container
+    NavbarComponent,
+    HeroComponent,
+    MenuComponent,
+    ContainerComponent,
+    SectionComponent
   }
 }
 </script>
