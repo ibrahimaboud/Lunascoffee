@@ -1,15 +1,28 @@
 <template>
   <header class="hero">
-    <div class="box">
-      <h1 class="title">
-        George's
-      </h1>
-      <h2 class="subtitle">
-        The best San Francisco has to offer.
-      </h2>
-    </div>
+    <container>
+      <div class="box">
+        <h1 class="title">
+          George's
+        </h1>
+        <h2 class="subtitle">
+          The best San Francisco has to offer.
+        </h2>
+      </div>
+    </container>
   </header>    
 </template>
+
+<script>
+import Container from '~/components/base/Container.vue'
+
+export default {
+  components: {
+    Container
+  }
+}
+</script>
+
 
 <style lang="scss" scoped>
 .hero {
@@ -24,14 +37,7 @@
   min-height: 20rem;
 
   .box {
-    display: block;
-    width: 80vw;
-    height: 100%;
-    margin: 0 auto;
-
-    .title {
-      padding-top: 6rem;
-    }
+    padding-top: 6rem;
   }
 }
 </style>

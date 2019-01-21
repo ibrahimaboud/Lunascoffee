@@ -2,7 +2,9 @@
   <main>
     <Navbar />
     <Hero />
-    <OurMenu />
+    <Container>
+      <OurMenu />
+    </Container>
   </main>
 </template>
 
@@ -10,12 +12,14 @@
 import Navbar from '~/components/Navbar.vue'
 import Hero from '~/components/Hero.vue'
 import OurMenu from '~/components/Menu.vue'
+import Container from '~/components/base/Container.vue'
 
 export default {
   components: {
     Navbar,
     Hero,
-    OurMenu
+    OurMenu,
+    Container
   }
 }
 </script>
