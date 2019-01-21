@@ -7,13 +7,35 @@
 <style>
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
+html,
 body {
+  background-color: #fff;
+  color: #111;
   font-family: 'Aleo', serif;
   font-size: 18px;
-  color: #111;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3rem;
+  word-spacing: 0.32rem;
+  letter-spacing: 0.16rem;
+}
+
+h2 {
+  font-size: 2rem;
 }
 </style>
