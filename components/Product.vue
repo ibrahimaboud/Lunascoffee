@@ -29,28 +29,32 @@ export default {
 
 <style lang="scss" scoped>
 .product {
-  text-decoration: none;
   color: #fff;
-  transition: color 0.2s;
+  text-decoration: none;
+  transition: color 1s;
 
   .product-image {
-    border-radius: 2px;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
-
-    transition: transform 0.2s;
-
-    min-height: 8rem;
+    background-size: cover;
+    border-radius: 4px;
     max-height: 100%;
+    min-height: 8rem;
+    transition: transform 0.2s;
+    overflow: hidden;
 
     &:hover {
       transform: scale(1.5);
     }
+
+    .product-title {
+      background-color: rgba(1, 1, 1, 0.5);
+    }
   }
 
-  &:hover {
-    color: #eee;
+  &:hover,
+  &:active {
+    color: rgb(207, 25, 25);
   }
 }
 </style>
