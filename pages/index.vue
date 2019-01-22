@@ -1,8 +1,8 @@
 <template>
   <main>
-    <NavbarComponent />
-    <HeroComponent title="George's" subtitle="The best San Francisco has to offer." info="Located right off of the Embarcadero." />
-    <MenuComponent />
+    <navbar-component />
+    <hero-component title="George's" subtitle="The best San Francisco has to offer." info="Located right off of the Embarcadero." />
+    <menu-component />
   </main>
 </template>
 

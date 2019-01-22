@@ -1,13 +1,13 @@
 <template>
   <section class="section">
-    <ContainerComponent>
+    <container-component>
       <h2 class="section-title">
         {{ title }}
       </h2>
       <h3 class="section-subtitle">
         {{ subtitle }}
       </h3>
-    </ContainerComponent>
+    </container-component>
     <slot />
   </section>
 </template>

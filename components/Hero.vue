@@ -1,6 +1,6 @@
 <template>
   <header class="hero">
-    <ContainerComponent>
+    <container-component>
       <div class="box">
         <h1 class="title">
           {{ title }}
@@ -12,7 +12,7 @@
           {{ info }}
         </h3>
       </div>
-    </ContainerComponent>
+    </container-component>
   </header>    
 </template>
 
