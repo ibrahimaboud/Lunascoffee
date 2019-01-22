@@ -48,6 +48,7 @@ export default {
     }
 
     .product-title {
+      font-family: 'Montserrat', sans-serif;
       background-color: rgba(1, 1, 1, 0.5);
       transition: background-color 0.2s;
       padding: 0.25rem 0 0 0.25rem;

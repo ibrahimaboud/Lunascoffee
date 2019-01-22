@@ -7,6 +7,10 @@
 <style lang="scss" scoped>
 .columns {
   display: flex;
+
+  &:not(:first-child) {
+    margin: 1rem 0 0 0;
+  }
 }
 
 @media (max-width: 400px) {

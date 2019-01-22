@@ -91,8 +91,13 @@ export default {
     display: none;
 
     .nav-link {
+      transition: transform 0.2s;
       text-align: center;
       margin: 1rem auto;
+
+      &:hover {
+        transform: scale(1.05);
+      }
 
       a {
         color: #111;

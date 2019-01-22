@@ -9,10 +9,21 @@
           <ProductComponent title="Burgers" image="/img/burger_1920-min.jpg" />
         </ColumnComponent>
         <ColumnComponent>
-          <ProductComponent title="Wings" image="/img/chicken_1920-min.jpg" />
+          <ProductComponent title="Wings" image="/img/wings_1920-min.jpg" />
+        </ColumnComponent>
+      </ColumnsComponent>
+      <ColumnsComponent>
+        <ColumnComponent>
+          <ProductComponent title="Salads" image="/img/salad_1920.jpg" />
+        </ColumnComponent>
+        <ColumnComponent>
+          <ProductComponent title="Tacos" image="/img/tacos_1920.jpg" />
         </ColumnComponent>
         <ColumnComponent>
           <ProductComponent title="Beers" image="/img/beer_1920-min.jpg" />
+        </ColumnComponent>
+        <ColumnComponent>
+          <ProductComponent title="Desserts" image="/img/dessert_1920.jpg" />
         </ColumnComponent>
       </ColumnsComponent>
     </ContainerComponent>
