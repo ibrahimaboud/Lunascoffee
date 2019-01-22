@@ -40,7 +40,7 @@ export default {
     border-radius: 4px;
     max-height: 100%;
     min-height: 8rem;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
     overflow: hidden;
 
     &:hover {

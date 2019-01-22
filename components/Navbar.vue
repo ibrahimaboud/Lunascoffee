@@ -6,22 +6,22 @@
     >
       <i class="fas fa-bars" />
     </span>
-    <a class="nav-logo" href="#">
+    <a class="nav-logo" href="#home">
       George's
     </a>
     <ul class="nav-main" :class="{'is-active': isActive }">
       <li class="nav-link">
-        <a href="#">
+        <a href="#home">
           Home
         </a>
       </li>
       <li class="nav-link">
-        <a href="#">
+        <a href="#menu">
           Menu
         </a>
       </li>
       <li class="nav-link">
-        <a href="#">
+        <a href="#hours_location">
           Hours & Locations
         </a>
       </li>

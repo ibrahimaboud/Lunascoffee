@@ -1,5 +1,5 @@
 <template>
-  <section-component title="Location & Hours">
+  <section-component title="Location & Hours" subtitle="Where to find the city's most delicious food">
     <container-component>
       <p>Text</p>
     </container-component>

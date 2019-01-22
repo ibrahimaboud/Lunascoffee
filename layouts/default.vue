@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   background-color: #fff;
@@ -37,5 +41,9 @@ h1 {
 
 h2 {
   font-size: 2rem;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
 }
 </style>
