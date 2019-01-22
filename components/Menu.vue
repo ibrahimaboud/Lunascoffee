@@ -1,27 +1,18 @@
 <template>
-  <SectionComponent>
+  <SectionComponent title="Menu">
     <ContainerComponent>
-      <h2>Menu</h2>
       <ColumnsComponent>
         <ColumnComponent>
-          <div class="menu-box">
-            <h3>Product</h3>
-          </div>
+          <ProductComponent title="Steaks" image="/img/steak_2_1920-min.jpg" />
         </ColumnComponent>
         <ColumnComponent>
-          <div class="menu-box">
-            <h3>Product</h3>
-          </div>
+          <ProductComponent title="Burgers" image="/img/burger_1920-min.jpg" />
         </ColumnComponent>
         <ColumnComponent>
-          <div class="menu-box">
-            <h3>Product</h3>
-          </div>
+          <ProductComponent title="Wings" image="/img/chicken_1920-min.jpg" />
         </ColumnComponent>
         <ColumnComponent>
-          <div class="menu-box">
-            <h3>Product</h3>
-          </div>
+          <ProductComponent title="Beers" image="/img/beer_1920-min.jpg" />
         </ColumnComponent>
       </ColumnsComponent>
     </ContainerComponent>
@@ -33,19 +24,15 @@ import ContainerComponent from '~/components/base/Container.vue'
 import SectionComponent from '~/components/base/Section.vue'
 import ColumnsComponent from '~/components/base/Columns.vue'
 import ColumnComponent from '~/components/base/Column.vue'
+import ProductComponent from '~/components/Product.vue'
 
 export default {
   components: {
     ContainerComponent,
     SectionComponent,
     ColumnsComponent,
-    ColumnComponent
+    ColumnComponent,
+    ProductComponent
   }
 }
 </script>
-
-<style lang="scss" scoped>
-.menu-box {
-  background: rgb(255, 197, 197);
-}
-</style>
