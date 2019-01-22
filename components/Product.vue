@@ -49,12 +49,17 @@ export default {
 
     .product-title {
       background-color: rgba(1, 1, 1, 0.5);
+      transition: background-color 1s;
     }
   }
 
   &:hover,
   &:active {
     color: rgb(207, 25, 25);
+
+    .product-title {
+      background-color: rgba(1, 1, 1, 0.9);
+    }
   }
 }
 </style>
