@@ -1,21 +1,19 @@
 <template>
-  <container-component>
-    <section-component title="Test" />
-  </container-component>
+  <section-component title="Location & Hours">
+    <container-component>
+      <p>Text</p>
+    </container-component>
+  </section-component>
 </template>
 
 <script>
 import ContainerComponent from '~/components/base/Container.vue'
 import SectionComponent from '~/components/base/Section.vue'
-import ColumnsComponent from '~/components/base/Columns.vue'
-import ColumnComponent from '~/components/base/Column.vue'
 
 export default {
   components: {
     ContainerComponent,
-    SectionComponent,
-    ColumnsComponent,
-    ColumnComponent
+    SectionComponent
   }
 }
 </script>

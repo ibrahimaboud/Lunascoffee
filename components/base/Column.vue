@@ -13,7 +13,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   .column {
     &:not(:last-child) {
       margin: 0 0 1rem 0;

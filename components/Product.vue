@@ -31,7 +31,7 @@ export default {
 .product {
   color: #fff;
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.3s ease-in-out;
 
   .product-image {
     background-position: center;
@@ -40,7 +40,7 @@ export default {
     border-radius: 4px;
     max-height: 100%;
     min-height: 8rem;
-    transition: transform 0.2s;
+    transition: transform 0.3s ease-in-out;
     overflow: hidden;
 
     &:hover {
@@ -49,8 +49,9 @@ export default {
 
     .product-title {
       font-family: 'Montserrat', sans-serif;
+      text-transform: unset;
       background-color: rgba(1, 1, 1, 0.5);
-      transition: background-color 0.2s;
+      transition: background-color 0.3s ease-in-out;
       padding: 0.25rem 0 0 0.25rem;
     }
   }

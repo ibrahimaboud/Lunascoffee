@@ -57,7 +57,7 @@ export default {
 <style lang="scss" scoped>
 .nav {
   background: #fff;
-  box-shadow: unset 0px -1px 2px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px -1px 2px 0px rgba(0, 0, 0, 0.25);
   font-size: 1rem;
   font-weight: 700;
   padding-bottom: 0.5rem;
@@ -69,7 +69,7 @@ export default {
     position: absolute;
     right: 1rem;
     top: 0.5rem;
-    transition: color 0.2s ease-out;
+    transition: color 0.3s ease-in-out;
 
     &:hover,
     &:active {
@@ -91,7 +91,7 @@ export default {
     display: none;
 
     .nav-link {
-      transition: transform 0.2s;
+      transition: transform 0.3s ease-in-out;
       text-align: center;
       margin: 1rem auto;
 
@@ -103,7 +103,7 @@ export default {
         color: #111;
         text-decoration: none;
         padding: 1rem auto;
-        transition: color 0.2s ease-out;
+        transition: color 0.3s ease-in-out;
 
         &:hover,
         &:active {

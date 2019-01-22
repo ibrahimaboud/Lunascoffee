@@ -50,15 +50,16 @@ export default {
   background-size: cover;
   box-shadow: inset 0px -1px 20px 0px rgba(0, 0, 0, 0.7);
   color: #efefef;
-  height: 50vh;
   min-height: 20rem;
 
   .box {
     padding-top: 6rem;
 
     .info {
-      padding-top: 3rem;
+      font-family: 'Montserrat', sans-serif;
       text-transform: unset;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
     }
   }
 }

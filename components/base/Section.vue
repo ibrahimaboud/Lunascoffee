@@ -47,6 +47,8 @@ export default {
   }
 
   .section-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: unset;
     padding-bottom: 2rem;
   }
 }
