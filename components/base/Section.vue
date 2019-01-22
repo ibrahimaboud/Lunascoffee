@@ -36,7 +36,7 @@ export default {
 <style lang="scss" scoped>
 .section {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 
   &:nth-child(even) {
     background-color: #ffffff;

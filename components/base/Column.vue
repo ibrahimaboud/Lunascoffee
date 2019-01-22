@@ -9,7 +9,15 @@
   flex: 1;
 
   &:not(:last-child) {
-    margin-right: 1rem;
+    margin: 0 1rem 0 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .column {
+    &:not(:last-child) {
+      margin: 0 0 1rem 0;
+    }
   }
 }
 </style>

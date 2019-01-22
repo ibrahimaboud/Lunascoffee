@@ -3,11 +3,14 @@
     <ContainerComponent>
       <div class="box">
         <h1 class="title">
-          George's
+          {{ title }}
         </h1>
         <h2 class="subtitle">
-          The best San Francisco has to offer.
+          {{ subtitle }}
         </h2>
+        <h3 class="info">
+          {{ info }}
+        </h3>
       </div>
     </ContainerComponent>
   </header>    
@@ -19,6 +22,20 @@ import ContainerComponent from '~/components/base/Container.vue'
 export default {
   components: {
     ContainerComponent
+  },
+  props: {
+    title: {
+      type: String,
+      default: ''
+    },
+    subtitle: {
+      type: String,
+      default: ''
+    },
+    info: {
+      type: String,
+      default: ''
+    }
   }
 }
 </script>
@@ -38,6 +55,11 @@ export default {
 
   .box {
     padding-top: 6rem;
+
+    .info {
+      padding-top: 3rem;
+      text-transform: unset;
+    }
   }
 }
 </style>
