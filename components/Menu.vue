@@ -1,5 +1,5 @@
 <template>
-  <SectionComponent title="Menu">
+  <SectionComponent title="Menu" subtitle="Our most delicious options">
     <ContainerComponent>
       <ColumnsComponent>
         <ColumnComponent>

@@ -4,6 +4,9 @@
       <h2 class="section-title">
         {{ title }}
       </h2>
+      <h3 class="section-subtitle">
+        {{ subtitle }}
+      </h3>
     </ContainerComponent>
     <slot />
   </section>
@@ -18,6 +21,10 @@ export default {
   },
   props: {
     title: {
+      type: String,
+      default: ''
+    },
+    subtitle: {
       type: String,
       default: ''
     }
@@ -39,7 +46,7 @@ export default {
     background-color: #efefef;
   }
 
-  .section-title {
+  .section-subtitle {
     padding-bottom: 2rem;
   }
 }

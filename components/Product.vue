@@ -31,7 +31,7 @@ export default {
 .product {
   color: #fff;
   text-decoration: none;
-  transition: color 1s;
+  transition: color 0.2s;
 
   .product-image {
     background-position: center;
@@ -44,12 +44,13 @@ export default {
     overflow: hidden;
 
     &:hover {
-      transform: scale(1.5);
+      transform: scale(1.05);
     }
 
     .product-title {
       background-color: rgba(1, 1, 1, 0.5);
-      transition: background-color 1s;
+      transition: background-color 0.2s;
+      padding: 0.25rem 0 0 0.25rem;
     }
   }
 
@@ -58,7 +59,7 @@ export default {
     color: rgb(207, 25, 25);
 
     .product-title {
-      background-color: rgba(1, 1, 1, 0.9);
+      background-color: rgba(1, 1, 1, 0.6);
     }
   }
 }
