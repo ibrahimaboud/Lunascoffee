@@ -3,7 +3,12 @@
     <container-component>
       <columns-component>
         <column-component>
-          <p>Text</p>
+          <h3>Location</h3>
+          <p>1234 Green Street, San Francisco, California, 94111</p>
+          <hr>
+          <h3>Hours</h3>
+          <p>Monday-Saturday: 10am-10pm</p>
+          <p>Sunday: 11am-6pm</p>
         </column-component>
         <column-component>
           <img src="/img/city_1920-min.jpg">
@@ -28,3 +33,10 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+hr {
+  border-style: none;
+  margin: 1rem 0 1rem 0;
+}
+</style>
