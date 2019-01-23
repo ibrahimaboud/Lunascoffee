@@ -1,12 +1,15 @@
 <template>
   <a class="product" :href="link">
     <div class="product-image" :style="{ backgroundImage: 'url(' + image + ')' }">
+      <h3 class="product-title">
+        {{ title }}
+      </h3>
       <div class="product-overlay">
-        <h3 class="product-title">
+        <h3 class="overlay-title">
           {{ title }}
         </h3>
-        <p class="product-info">
-          This is some info about the product. It's not much but it's text.
+        <p class="overlay-info">
+          {{ info }}
         </p>
       </div>
     </div>
@@ -17,6 +20,10 @@
 export default {
   props: {
     title: {
+      type: String,
+      default: ''
+    },
+    info: {
       type: String,
       default: ''
     },
@@ -39,6 +46,7 @@ export default {
   transition: color 0.3s ease-in-out;
 
   .product-image {
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,30 +56,44 @@ export default {
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
 
+    .product-title {
+      opacity: 1;
+      position: absolute;
+      font-family: 'Montserrat', sans-serif;
+      padding: 0.25rem;
+      width: 100%;
+      text-transform: unset;
+      transition: opacity 0.3s ease-in-out;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
     .product-overlay {
-      transition: transform 0.3s ease-in-out;
-      transform: translateY(-100%);
+      transition: opacity 0.3s ease-in-out;
+      opacity: 0;
       background-color: rgba(0, 0, 0, 0.5);
       height: 100%;
       width: 100%;
-    }
+      padding: 0.25rem;
 
-    .product-title {
-      font-family: 'Montserrat', sans-serif;
-      padding: 0.25rem 0 0 0.25rem;
-      text-transform: unset;
-    }
+      .overlay-title {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: unset;
+      }
 
-    .product-info {
-      padding: 0.25rem 0 0 0.25rem;
-      font-size: 0.8rem;
+      .overlay-info {
+        font-size: 0.8rem;
+      }
     }
 
     &:hover {
       transform: scale(1.05);
 
+      .product-title {
+        opacity: 0;
+      }
+
       .product-overlay {
-        transform: translateY(0);
+        opacity: 1;
       }
     }
   }
