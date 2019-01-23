@@ -1,9 +1,14 @@
 <template>
   <a class="product" :href="link">
     <div class="product-image" :style="{ backgroundImage: 'url(' + image + ')' }">
-      <h3 class="product-title">
-        {{ title }}
-      </h3>
+      <div class="product-overlay">
+        <h3 class="product-title">
+          {{ title }}
+        </h3>
+        <p class="product-info">
+          This is some info about the product. It's not much but it's text.
+        </p>
+      </div>
     </div>
   </a>
 </template>
@@ -38,30 +43,36 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 4px;
-    max-height: 100%;
+    height: 100%;
     min-height: 8rem;
-    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
     overflow: hidden;
+    transition: transform 0.3s ease-in-out;
 
-    &:hover {
-      transform: scale(1.05);
+    .product-overlay {
+      transition: transform 0.3s ease-in-out;
+      transform: translateY(-100%);
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 100%;
+      width: 100%;
     }
 
     .product-title {
       font-family: 'Montserrat', sans-serif;
-      text-transform: unset;
-      background-color: rgba(1, 1, 1, 0.5);
-      transition: background-color 0.3s ease-in-out;
       padding: 0.25rem 0 0 0.25rem;
+      text-transform: unset;
     }
-  }
 
-  &:hover,
-  &:active {
-    color: rgb(207, 25, 25);
+    .product-info {
+      padding: 0.25rem 0 0 0.25rem;
+      font-size: 0.8rem;
+    }
 
-    .product-title {
-      background-color: rgba(1, 1, 1, 0.6);
+    &:hover {
+      transform: scale(1.05);
+
+      .product-overlay {
+        transform: translateY(0);
+      }
     }
   }
 }

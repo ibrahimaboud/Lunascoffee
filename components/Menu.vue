@@ -14,16 +14,16 @@
       </columns-component>
       <columns-component>
         <column-component>
-          <product-component title="Salads" image="/img/salad_1920.jpg" />
+          <product-component title="Salads" image="/img/salad_1920-min.jpg" />
         </column-component>
         <column-component>
-          <product-component title="Tacos" image="/img/tacos_1920.jpg" />
+          <product-component title="Tacos" image="/img/tacos_1920-min.jpg" />
         </column-component>
         <column-component>
           <product-component title="Beers" image="/img/beer_1920-min.jpg" />
         </column-component>
         <column-component>
-          <product-component title="Desserts" image="/img/dessert_1920.jpg" />
+          <product-component title="Desserts" image="/img/dessert_1920-min.jpg" />
         </column-component>
       </columns-component>
     </container-component>
