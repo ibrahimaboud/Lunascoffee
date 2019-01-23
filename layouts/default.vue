@@ -46,4 +46,9 @@ h2 {
 p {
   font-family: 'Montserrat', sans-serif;
 }
+
+img {
+  width: 100%;
+  border-radius: 2px;
+}
 </style>
