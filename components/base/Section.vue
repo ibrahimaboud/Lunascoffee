@@ -27,6 +27,10 @@ export default {
     subtitle: {
       type: String,
       default: ''
+    },
+    background: {
+      type: String,
+      default: null
     }
   }
 }
@@ -35,8 +39,8 @@ export default {
 
 <style lang="scss" scoped>
 .section {
-  padding-top: 3rem;
   padding-bottom: 5rem;
+  padding-top: 3rem;
 
   &:nth-child(even) {
     background-color: #ffffff;
@@ -48,8 +52,8 @@ export default {
 
   .section-subtitle {
     font-family: 'Montserrat', sans-serif;
-    text-transform: unset;
     padding-bottom: 2rem;
+    text-transform: unset;
   }
 }
 </style>

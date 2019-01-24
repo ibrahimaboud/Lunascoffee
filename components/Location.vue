@@ -13,7 +13,7 @@
           <h3>Seating & Accessibility</h3>
           <p>
             We have an wide selection of seating options, to make your dining experience unique. 
-            An outdoor patio, conference room, spacious dining area along with bar seating.
+            An outdoor patio, conference room, a spacious dining area along with bar seating.
           </p>
         </column-component>
         <column-component>
@@ -43,11 +43,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-hr {
-  border-style: none;
-  margin: 1rem 0 1rem 0;
-}
-
 img {
   width: 75%;
 }

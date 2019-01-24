@@ -26,7 +26,7 @@
         </a>
       </li>
       <li class="nav-link">
-        <a href="#">
+        <a href="#about">
           About
         </a>
       </li>

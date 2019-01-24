@@ -51,4 +51,9 @@ img {
   width: 100%;
   border-radius: 2px;
 }
+
+hr {
+  border-style: none;
+  margin: 1rem 0 1rem 0;
+}
 </style>
