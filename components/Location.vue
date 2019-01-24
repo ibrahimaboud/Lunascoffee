@@ -9,9 +9,17 @@
           <h3>Hours</h3>
           <p>Monday-Saturday: 10am-10pm</p>
           <p>Sunday: 11am-6pm</p>
+          <hr>
+          <h3>Seating & Accessibility</h3>
+          <p>
+            We have an wide selection of seating options, to make your dining experience unique. 
+            An outdoor patio, conference room, spacious dining area along with bar seating.
+          </p>
         </column-component>
         <column-component>
-          <img src="/img/city_1920-min.jpg">
+          <div class="img-clipped">
+            <img src="/img/city_1920-min.jpg">
+          </div>
         </column-component>
       </columns-component>
     </container-component>
@@ -38,5 +46,14 @@ export default {
 hr {
   border-style: none;
   margin: 1rem 0 1rem 0;
+}
+
+img {
+  width: 75%;
+}
+
+.img-clipped {
+  text-align: right;
+  clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0 100%);
 }
 </style>

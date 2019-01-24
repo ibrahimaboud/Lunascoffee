@@ -1,7 +1,7 @@
 <template>
   <main>
     <navbar-component />
-    <hero-component id="home" title="George's" subtitle="The best San Francisco has to offer." info="Located right off of the Embarcadero." />
+    <hero-component id="home" title="George's" subtitle="The best San Francisco has to offer." info="Located right off of The Embarcadero." />
     <menu-component id="menu" />
     <location-component id="hours_location" />
   </main>
