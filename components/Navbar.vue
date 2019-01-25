@@ -4,7 +4,7 @@
       class="nav-toggle"
       @click="toggleActive"
     >
-      <i class="fas fa-bars" />
+      <i class="fas" :class="{'fa-bars': !isActive, 'fa-times': isActive }" />
     </span>
     <a class="nav-logo" href="#home">
       George's
