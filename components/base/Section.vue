@@ -41,6 +41,15 @@ export default {
 .section {
   padding-bottom: 5rem;
   padding-top: 3rem;
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+
+  &:first-of-type {
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  }
+
+  &:last-of-type {
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+  }
 
   &:nth-child(even) {
     background-color: #ffffff;

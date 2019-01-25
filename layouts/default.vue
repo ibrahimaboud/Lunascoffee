@@ -31,6 +31,7 @@ h2,
 h3 {
   font-weight: 300;
   text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
 
 h1 {

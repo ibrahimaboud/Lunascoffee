@@ -4,7 +4,6 @@
       <columns-component>
         <column-component>
           <h3>Our Staff</h3>
-          <hr>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Phasellus et rhoncus mi. 
@@ -15,7 +14,6 @@
         </column-component>
         <column-component>
           <h3>Our Food</h3>
-          <hr>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Phasellus et rhoncus mi. 
@@ -26,7 +24,6 @@
         </column-component>
         <column-component>
           <h3>Our History</h3>
-          <hr>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Phasellus et rhoncus mi. 
@@ -57,6 +54,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+h3 {
+  margin-bottom: 1rem;
+}
+
 .bg-img {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('/img/kitchen_1920-min.jpg');
