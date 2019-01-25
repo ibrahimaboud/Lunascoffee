@@ -5,6 +5,7 @@
     <menu-component id="menu" />
     <location-component id="hours_location" />
     <about-component id="about" />
+    <footer-component />
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import HeroComponent from '~/components/Hero.vue'
 import MenuComponent from '~/components/Menu.vue'
 import LocationComponent from '~/components/Location.vue'
 import AboutComponent from '~/components/About.vue'
+import FooterComponent from '~/components/Footer.vue'
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     HeroComponent,
     MenuComponent,
     LocationComponent,
-    AboutComponent
+    AboutComponent,
+    FooterComponent
   }
 }
 </script>

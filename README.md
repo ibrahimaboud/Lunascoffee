@@ -1,6 +1,6 @@
-# georges-steaks
+# George's
 
-> My super-excellent Nuxt.js project
+> A website design for a fictional restaurant.
 
 ## Build Setup
 

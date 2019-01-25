@@ -41,15 +41,7 @@ export default {
 .section {
   padding-bottom: 5rem;
   padding-top: 3rem;
-  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
-
-  &:first-of-type {
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-  }
-
-  &:last-of-type {
-    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
-  }
+  clip-path: none;
 
   &:nth-child(even) {
     background-color: #ffffff;
@@ -63,6 +55,20 @@ export default {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 2rem;
     text-transform: unset;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+
+    &:first-of-type {
+      clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    }
+
+    &:last-of-type {
+      clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+    }
   }
 }
 </style>

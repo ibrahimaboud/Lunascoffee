@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 * {
   box-sizing: border-box;
   margin: 0;
@@ -42,6 +42,20 @@ h1 {
 
 h2 {
   font-size: 2rem;
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+  padding: 1rem auto;
+  transition: color 0.3s ease-in-out;
+  color: rgb(153, 19, 19);
+  font-weight: 600;
+
+  &:hover,
+  &:active {
+    color: rgb(207, 25, 25);
+  }
 }
 
 p {
