@@ -51,4 +51,10 @@ img {
   text-align: right;
   clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0 100%);
 }
+
+@media screen and (max-width: 768px) {
+  .img-clipped {
+    display: none;
+  }
+}
 </style>

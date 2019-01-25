@@ -2,7 +2,10 @@
   <footer class="footer">
     <container-component>
       <p class="text-centered">
-        &copy; 2019 George Butler.
+        &copy; 2019 
+        <a class="footer-link" href="https://github.com/georgebutler">
+          George Butler.
+        </a>
       </p>
       <p class="text-centered">
         Images and media sourced from 
