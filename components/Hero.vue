@@ -43,14 +43,15 @@ export default {
 
 <style lang="scss" scoped>
 .hero {
+  background-color: #111;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('/img/steak_1920.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   box-shadow: inset 0px -1px 20px 0px rgba(0, 0, 0, 0.7);
-  color: #efefef;
-  min-height: 20rem;
+  color: #ffffff;
+  min-height: 25vh;
 
   .box {
     padding-top: 6rem;

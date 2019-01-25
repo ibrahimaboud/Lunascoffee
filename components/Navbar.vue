@@ -30,11 +30,6 @@
           About
         </a>
       </li>
-      <li class="nav-link">
-        <a href="#">
-          Contact
-        </a>
-      </li>
     </ul>
   </nav>
 </template>

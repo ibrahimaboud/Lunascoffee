@@ -41,11 +41,8 @@ export default {
 .section {
   padding-bottom: 5rem;
   padding-top: 3rem;
+  background: #fff;
   clip-path: none;
-
-  &:nth-child(even) {
-    background-color: #ffffff;
-  }
 
   &:nth-child(odd) {
     background-color: #efefef;

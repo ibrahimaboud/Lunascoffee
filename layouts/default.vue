@@ -69,6 +69,6 @@ img {
 
 hr {
   border-style: none;
-  margin: 1rem 0 1rem 0;
+  padding: 1rem 0 1rem 0;
 }
 </style>
