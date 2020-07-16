@@ -20,7 +20,7 @@
           <product-component title="Smoothies" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/smoothie.jpg" />
         </column-component>
         <column-component>
-          <product-component title="Orange Juice" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/OJ.jpg" />
+          <product-component title="Orange Juice" info="Orange juice so fresh we squeeze it infront of you. Best way to start the day!" image="/img/OJ.jpg" />
         </column-component>
         <column-component>
           <product-component title="Vegetarian" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/veggie.jpg" />
