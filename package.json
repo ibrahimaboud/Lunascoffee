@@ -1,8 +1,8 @@
 {
-  "name": "georges-steaks",
+  "name": "lunas",
   "version": "1.0.0",
   "description": "My super-excellent Nuxt.js project",
-  "author": "George",
+  "author": "Ibrahim",
   "private": true,
   "scripts": {
     "dev": "nuxt",

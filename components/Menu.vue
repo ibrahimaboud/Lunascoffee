@@ -3,24 +3,24 @@
     <container-component>
       <columns-component>
         <column-component>
-          <product-component title="Steaks" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/steak_2_1920-min.jpg" />
+          <product-component title="Breakfast" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/steak_2_1920-min.jpg" />
         </column-component>
         <column-component>
-          <product-component title="Burgers" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/burger_1920-min.jpg" />
+          <product-component title="Sandwhich" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/burger_1920-min.jpg" />
         </column-component>
         <column-component>
-          <product-component title="Wings" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/wings_1920-min.jpg" />
+          <product-component title="Plates" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/wings_1920-min.jpg" />
         </column-component>
       </columns-component>
       <columns-component>
         <column-component>
-          <product-component title="Salads" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/salad_1920-min.jpg" />
+          <product-component title="Coffee" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/salad_1920-min.jpg" />
         </column-component>
         <column-component>
-          <product-component title="Tacos" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/tacos_1920-min.jpg" />
+          <product-component title="Smoothies" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/tacos_1920-min.jpg" />
         </column-component>
         <column-component>
-          <product-component title="Beers" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/beer_1920-min.jpg" />
+          <product-component title="Orange Juice" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/beer_1920-min.jpg" />
         </column-component>
         <column-component>
           <product-component title="Desserts" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/dessert_1920-min.jpg" />

@@ -60,7 +60,7 @@ h3 {
 
 .bg-img {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('/img/kitchen_1920-min.jpg');
+    url('/img/LunaLogo.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

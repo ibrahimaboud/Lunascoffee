@@ -1,7 +1,7 @@
 <template>
   <main>
     <navbar-component />
-    <hero-component id="home" title="George's" subtitle="The best San Francisco has to offer." info="Located right off of The Embarcadero." />
+    <hero-component id="home" title="Luna's" subtitle="The best San Francisco has to offer." info="Located right off of the corner of 23rd and Potrero." />
     <menu-component id="menu" />
     <location-component id="hours_location" />
     <about-component id="about" />

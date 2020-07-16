@@ -2,17 +2,17 @@
   <footer class="footer">
     <container-component>
       <p class="text-centered">
-        &copy; 2019 
-        <a class="footer-link" href="https://github.com/georgebutler">
-          George Butler.
+        &copy; 2020 
+        <a class="footer-link" href="https://github.com/hemo650">
+          Ibrahim Aboudamous.
         </a>
       </p>
       <p class="text-centered">
-        Images and media sourced from 
-        <a class="footer-link" href="https://pixabay.com/">
-          Pixabay.
+        Order food and drinks from here
+        <a class="footer-link" href="https://www.doordash.com/store/luna-s-coffee-house-san-francisco-220139/en-US">
+           Doordash. 
         </a>
-      </p>
+      </p>  
     </container-component>
   </footer>
 </template>

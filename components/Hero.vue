@@ -45,7 +45,7 @@ export default {
 .hero {
   background-color: #111;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('/img/steak_1920.jpg');
+    url('/img/LunaLogo.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

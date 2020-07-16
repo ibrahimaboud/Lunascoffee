@@ -1,4 +1,4 @@
-# George's
+# Luna's
 
 > A website design for a fictional restaurant.
 

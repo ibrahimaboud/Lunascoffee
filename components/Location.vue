@@ -4,21 +4,19 @@
       <columns-component>
         <column-component>
           <h3>Location</h3>
-          <p>1234 Green Street, San Francisco, California, 94111</p>
+          <p>1101 Potrero Ave, San Francisco, California, 94111</p>
           <hr>
           <h3>Hours</h3>
-          <p>Monday-Saturday: 10am-10pm</p>
-          <p>Sunday: 11am-6pm</p>
+          <p>Monday-Friday: 7am-3pm</p>
           <hr>
           <h3>Seating & Accessibility</h3>
           <p>
-            We have an wide selection of seating options, to make your dining experience unique. 
-            An outdoor patio, conference room, a spacious dining area along with bar seating.
+            We are currently respecting social distancing guideline and require everything to be curb side pick
           </p>
         </column-component>
         <column-component>
           <div class="img-clipped">
-            <img src="/img/city_1920-min.jpg">
+            <img src="/img/lunaoutside.jpg">
           </div>
         </column-component>
       </columns-component>

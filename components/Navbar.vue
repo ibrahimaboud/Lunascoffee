@@ -7,7 +7,7 @@
       <i class="fas" :class="{'fa-bars': !isActive, 'fa-times': isActive }" />
     </span>
     <a class="nav-logo" href="#home">
-      George's
+      Luna's
     </a>
     <ul class="nav-main" :class="{'is-active': isActive }">
       <li class="nav-link">
