@@ -22,7 +22,7 @@
       </li>
       <li class="nav-link">
         <a href="#hours_location">
-          Hours & Locations
+          Hours AND Locations
         </a>
       </li>
       <li class="nav-link">

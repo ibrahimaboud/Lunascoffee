@@ -1,12 +1,12 @@
 <template>
-  <section-component title="Menu" subtitle="Our most delicious options">
+  <section-component title="Recommended" subtitle="Our most delicious options">
     <container-component>
       <columns-component>
         <column-component>
-          <product-component title="Breakfast" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/bagel.jpg" />
+          <product-component title="Breakfast" info="Our best breakfasts come with your choice of meat, cheese, and eggs,on a bagel or crossiant." image="/img/bagel.jpg" />
         </column-component>
         <column-component>
-          <product-component title="Sandwhich" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/sandwhichluna.jpg" />
+          <product-component title="Sandwhich" info="Our most popular sandwhich comes on either a French Roll or Ductch Crunch Roll toasted to your perfection with Chicekn Teriyaki, lettuce, tomatos." image="/img/sandwhichluna.jpg" />
         </column-component>
         <column-component>
           <product-component title="Plates" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/chickenplate.jpg" />
