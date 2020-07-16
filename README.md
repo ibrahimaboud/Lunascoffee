@@ -1,6 +1,6 @@
 # Luna's
 
-> A website design for a fictional restaurant.
+> A website for a restaurant.
 
 ## Build Setup
 
