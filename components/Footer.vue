@@ -10,7 +10,7 @@
       <p class="text-centered">
         Order food and drinks from here
         <a class="footer-link" href="https://www.doordash.com/store/luna-s-coffee-house-san-francisco-220139/en-US">
-           Doordash. 
+            Doordash. 
         </a>
       </p>  
     </container-component>
