@@ -9,21 +9,21 @@
           <product-component title="Sandwhich" info="Our most popular sandwhich comes on either a French Roll or Ductch Crunch Roll toasted to your perfection with Chicekn Teriyaki, lettuce, tomatos." image="/img/sandwhichluna.jpg" />
         </column-component>
         <column-component>
-          <product-component title="Plates" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/chickenplate.jpg" />
+          <product-component title="Plates" info="Chicken Teriyaki on Rice plate topped with chicken teriyaki, green salad, and macaroni salad." image="/img/chickenplate.jpg" />
         </column-component>
       </columns-component>
       <columns-component>
         <column-component>
-          <product-component title="Coffee" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/coffeel.jpg" />
+          <product-component title="Coffee" info="Hot or Iced fresh coffee, lates, vanilla lates, cappuccino, steamed milk, hot  chocolate, cafe au lait, chai latte, mocha, white mocha." image="/img/coffeel.jpg" />
         </column-component>
         <column-component>
-          <product-component title="Smoothies" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/smoothie.jpg" />
+          <product-component title="Smoothies" info="Strawberry, Strawberry Banana, Mango, Peach and  Wild Berry Smoothies." image="/img/smoothie.jpg" />
         </column-component>
         <column-component>
           <product-component title="Orange Juice" info="Orange juice so fresh we squeeze it infront of you. Best way to start the day!" image="/img/OJ.jpg" />
         </column-component>
         <column-component>
-          <product-component title="Vegetarian" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel nisl tempus, mattis leo id, eleifend augue." image="/img/veggie.jpg" />
+          <product-component title="Vegetarian" info="Green salad, potato salad, macaroni salad  with rice!" image="/img/veggie.jpg" />
         </column-component>
       </columns-component>
     </container-component>

@@ -3,13 +3,9 @@
     <container-component>
       <columns-component>
         <column-component>
-          <h3>Our Staff</h3>
+          <h3>Our Specials</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Phasellus et rhoncus mi. 
-            Praesent vel nisl tempus, mattis leo id, eleifend augue. 
-            Phasellus sit amet velit varius, vestibulum purus et, interdum lorem. 
-            Phasellus fringilla eget nisi sed vulputate. 
+            Stay Tuned!
           </p>
         </column-component>
         <column-component>

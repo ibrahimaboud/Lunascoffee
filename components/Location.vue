@@ -14,7 +14,7 @@
             Call our phone number for pick-up: (415)710-3066 OR
           </p>
           <p class="text-centered">
-        Order food and drinks from here
+            Order food and drinks from here
         <a class="footer-link" href="https://www.doordash.com/store/luna-s-coffee-house-san-francisco-220139/en-US">
             Doordash  
         </a>
@@ -27,7 +27,7 @@
         <a class="footer-link" href="https://www.grubhub.com/restaurant/lunas-coffee-house-1101-potrero-ave-san-francisco/2113651">
             GrubHub 
         </a>                
-      </p>  
+          </p>  
         </column-component>
         <column-component>
           <div class="img-clipped">
