@@ -6,7 +6,7 @@
           <product-component title="Breakfast" info="Our best breakfasts come with your choice of meat, cheese, and eggs,on a bagel or crossiant." image="/img/bagel.jpg" />
         </column-component>
         <column-component>
-          <product-component title="Sandwhich" info="Our most popular sandwhich comes on either a French Roll or Ductch Crunch Roll toasted to your perfection with Chicekn Teriyaki, lettuce, tomatos." image="/img/sandwhichluna.jpg" />
+          <product-component title="Sandwhich" info="Our most popular sandwhich comes on either a French Roll or Ductch Crunch Roll toasted to your perfection with Chicekn Teriyaki, lettuce, tomatos." image="/img/realsandwhich.jpg" />
         </column-component>
         <column-component>
           <product-component title="Plates" info="Chicken Teriyaki on Rice plate topped with chicken teriyaki, green salad, and macaroni salad." image="/img/chickenplate.jpg" />

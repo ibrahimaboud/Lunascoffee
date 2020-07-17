@@ -1,7 +1,7 @@
 <template>
   <main>
     <navbar-component />
-    <hero-component id="home" title="Luna's" subtitle="We do more then our best, to make sure you leave happy!" info="Located right off of the corner of 23rd and Potrero." />
+    <hero-component id="home" title="Luna's" subtitle="We do more than our best, to make sure you leave happy!" info="Located right off of the corner of 23rd and Potrero." />
     <menu-component id="menu" />
     <location-component id="hours_location" />
     <about-component id="about" />
