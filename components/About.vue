@@ -11,21 +11,13 @@
         <column-component>
           <h3>Our Food</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Phasellus et rhoncus mi. 
-            Praesent vel nisl tempus, mattis leo id, eleifend augue. 
-            Phasellus sit amet velit varius, vestibulum purus et, interdum lorem. 
-            Phasellus fringilla eget nisi sed vulputate. 
+            Coming soon!
           </p>
         </column-component>
         <column-component>
           <h3>Our History</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Phasellus et rhoncus mi. 
-            Praesent vel nisl tempus, mattis leo id, eleifend augue. 
-            Phasellus sit amet velit varius, vestibulum purus et, interdum lorem. 
-            Phasellus fringilla eget nisi sed vulputate. 
+            Coming soon! 
           </p>
         </column-component>
       </columns-component>
